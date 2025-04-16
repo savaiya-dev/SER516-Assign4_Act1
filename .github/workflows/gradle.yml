@@ -9,11 +9,12 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "assign4-act1" ]
-    branches: [ "assign4-act1-checkstyle" ]
+    branches: 
+    - assign4-act1
+    - assign4-act1-checkstyle
   pull_request:
-    branches: [ "assign4-act1" ]
-    branches: [ "assign4-act1-checkstyle" ]
+    - assign4-act1
+    - assign4-act1-checkstyle
 
 jobs:
   build:
