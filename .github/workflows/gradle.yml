@@ -10,8 +10,10 @@ name: Java CI with Gradle
 on:
   push:
     branches: [ "assign4-act1" ]
+    branches: [ "assign4-act1-checkstyle" ]
   pull_request:
     branches: [ "assign4-act1" ]
+    branches: [ "assign4-act1-checkstyle" ]
 
 jobs:
   build:
